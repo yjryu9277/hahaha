@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 public class FrontController extends HttpServlet {
 
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// ¼öÁ¤¿Ï·á
+		// í•œê¸€ìž˜ë‚˜ì™€ìœ 
 		System.out.println("OK");
 	}
 
