@@ -12,10 +12,17 @@ import javax.servlet.http.HttpServletResponse;
 public class FrontController extends HttpServlet {
 
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// ·ùÀ±Á¤ÀÌ ¼öÁ¤ÇÑ ÄÚµå
+
+		// ë¥˜ìœ¤ì •ì´ ìˆ˜ì •í•œ ì½”ë“œ
 		String reqUrl = request.getRequestURI();
+
+		// ï¿½ë¸³æ¹²ï¿½ï¿½ì˜’ï¿½êµ¹ï¿½ï¿½ï¿½ì‘€
+
 		System.out.println("OK");
+
 		
+
+		//æºï¿½æ´¹ì’–ê½¦
 	}
 
 }
