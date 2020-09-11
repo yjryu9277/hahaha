@@ -12,6 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 public class FrontController extends HttpServlet {
 
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// 수정완료
 		System.out.println("OK");
 	}
 
